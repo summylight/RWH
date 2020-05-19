@@ -1,2 +1,2 @@
 /* main:
-    cmdline-> read graphl -> random walk -> (Convergence judgment) ->
+    cmdline-> read graphl -> random walk -> (Convergence judgment) -> 
