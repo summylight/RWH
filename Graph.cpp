@@ -1,5 +1,19 @@
 #include "Graph.h"
+vector<int> Graph::get_neighs(int v) {
+    return this->G[v];
+}
 
+int Graph::get_nodes() {
+    return this->vertex_nums;
+}
+
+int Graph::get_types() {
+    return this->type_nums;
+}
+
+void Graph::random_sample() {
+
+}
 
 void Graph::read_graph(char* filename){
     if(filename == NULL ) return;

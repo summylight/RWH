@@ -1,5 +1,5 @@
 /* main:
-    cmdline-> read graphl -> random walk -> (Convergence judgment) -> hashcode -> next randomwalk -> ... -> hashencode -> graphlet ios -> compute count -> output
+    cmdline-> read graph -> random walk -> (Convergence judgment) -> hashcode -> next randomwalk -> ... -> hashencode -> graphlet ios -> compute count -> output
     */
 #include <iostream>
 #include "Graph.h"

@@ -108,9 +108,15 @@
     <ClInclude Include="Graphlet.h" />
     <ClInclude Include="hashcode.h" />
     <ClInclude Include="Random.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="data\dbpedia\dbpedia.edges" />
+    <None Include="data\dbpedia\dbpedia.types" />
     <None Include="data\dbpedia\readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RWH.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
