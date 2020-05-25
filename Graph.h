@@ -17,7 +17,7 @@ class Graph{
         Graph(char *filename);// read graph into vector
         int get_types();
         int get_nodes();
-        vector<int> get_neighs(int v);
+        vector<int> &get_neighs(int v);
 
     private:
         vector<vector<int>> G;
