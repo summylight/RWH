@@ -100,14 +100,15 @@
   <ItemGroup>
     <ClCompile Include="alg.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="hashcode_map.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Randomwalk.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alg.h" />
     <ClInclude Include="Graph.h" />
-    <ClInclude Include="Graphlet.h" />
-    <ClInclude Include="hashcode.h" />
-    <ClInclude Include="Random.h" />
+    <ClInclude Include="hashcode_map.h" />
+    <ClInclude Include="Randomwalk.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

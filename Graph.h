@@ -9,17 +9,15 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "Graphlet.h"
 #include "alg.h"
 using namespace std;
 
 class Graph{
     public:
-        void read_graph(char *filename);// read graph into vector
+        Graph(char *filename);// read graph into vector
         int get_types();
         int get_nodes();
         vector<int> get_neighs(int v);
-        void random_sample();
 
     private:
         vector<vector<int>> G;

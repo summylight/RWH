@@ -8,14 +8,12 @@ int Graph::get_nodes() {
 }
 
 int Graph::get_types() {
+
     return this->type_nums;
 }
 
-void Graph::random_sample() {
 
-}
-
-void Graph::read_graph(char* filename){
+Graph::Graph(char* filename){
     if(filename == NULL ) return;
     string f(filename);
     string edgefile = "./data/"+f+"/"+f+".edges";
